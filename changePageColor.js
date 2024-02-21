@@ -12,7 +12,7 @@
     // 定时器间隔时间（单位：毫秒）
     const interval = 2000;
 
-    // 随机生成颜色
+    // 随机生成颜色,不保证颜色代码符合标准，只能保证代码格式和位数为#****** 格式
     function getRandomColor() {
         const letters = '0123456789ABCDEF';
         let color = '#';
